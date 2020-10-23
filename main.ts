@@ -1,6 +1,9 @@
 import { app, BrowserWindow, screen, ipcMain } from "electron";
 import * as path from "path";
 import * as url from "url";
+import * as os from "os";
+import * as childProcess from "child_process";
+
 require("update-electron-app")();
 
 let win: BrowserWindow = null;
@@ -81,6 +84,16 @@ try {
     if (win === null) {
       createWindow();
     }
+  });
+
+  app.on("will-quit", () => {
+    const libPath = path.join(process.cwd(), !serve ? "resources" : "lib");
+    const exePath = path.join(
+      libPath,
+      os.arch() == "x64" ? "sysproxy64.exe" : "sysproxy.exe"
+    );
+    const args: any[] = ["set", 1, "-", "-", "-"];
+    childProcess.execFile(exePath, args);
   });
 
   // 接收最小化命令
