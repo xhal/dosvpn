@@ -3,8 +3,8 @@ import * as path from "path";
 import * as url from "url";
 import * as os from "os";
 import * as childProcess from "child_process";
-
-require("update-electron-app")();
+const log = require("electron-log");
+const { autoUpdater } = require("electron-updater");
 
 let win: BrowserWindow = null;
 const args = process.argv.slice(1),
@@ -67,7 +67,12 @@ try {
   // initialization and is ready to create browser windows.
   // Some APIs can only be used after this event occurs.
   // Added 400 ms to fix the black background issue while using transparent window. More detais at https://github.com/electron/electron/issues/15947
-  app.on("ready", () => setTimeout(createWindow, 400));
+  app.on("ready", () => {
+    log.transports.file.level = "info";
+    autoUpdater.logger = log;
+    autoUpdater.checkForUpdatesAndNotify();
+    setTimeout(createWindow, 400);
+  });
 
   // Quit when all windows are closed.
   app.on("window-all-closed", () => {

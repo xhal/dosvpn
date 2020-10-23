@@ -1,6 +1,6 @@
 {
   "name": "dosvpn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "极速、简单、开源的访问外网学习先进科学技术的必备工具",
   "homepage": "https://github.com/maximegris/angular-electron",
   "author": {
@@ -24,6 +24,56 @@
     "trojan",
     "proxy"
   ],
+  "build": {
+    "productName": "dosvpn",
+    "directories": {
+      "output": "release/"
+    },
+    "extraResources": {
+      "from": "./lib/"
+    },
+    "files": [
+      "**/*",
+      "!**/*.ts",
+      "!*.code-workspace",
+      "!LICENSE.md",
+      "!package.json",
+      "!package-lock.json",
+      "!src/",
+      "!e2e/",
+      "!hooks/",
+      "!angular.json",
+      "!_config.yml",
+      "!karma.conf.js",
+      "!tsconfig.json",
+      "!tslint.json"
+    ],
+    "win": {
+      "publish": [
+        {
+          "provider": "github"
+        }
+      ],
+      "icon": "dist/assets/icons",
+      "target": [
+        "portable"
+      ],
+      "certificateFile": "dosvpn.pfx",
+      "certificatePassword": "dodois"
+    },
+    "mac": {
+      "icon": "dist/assets/icons",
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "icon": "dist/assets/icons",
+      "target": [
+        "AppImage"
+      ]
+    }
+  },
   "main": "main.js",
   "private": true,
   "scripts": {
@@ -37,7 +87,7 @@
     "electron:serve-tsc": "tsc -p tsconfig.serve.json",
     "electron:serve": "wait-on tcp:4200 && npm run electron:serve-tsc && npx electron . --serve",
     "electron:local": "npm run build:prod && npx electron .",
-    "electron:build": "npm run build:prod && electron-builder build",
+    "electron:build": "npm run build:prod && electron-builder build -p always",
     "test": "ng test --watch=false",
     "test:watch": "ng test",
     "e2e": "npm run build:prod && cross-env TS_NODE_PROJECT='e2e/tsconfig.e2e.json' mocha --timeout 300000 --require ts-node/register e2e/**/*.e2e.ts",
@@ -104,8 +154,9 @@
     "@ant-design/icons-angular": "10.0.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "electron-log": "4.2.4",
+    "electron-updater": "4.3.5",
     "glob": "7.1.6",
-    "normalize.css": "8.0.1",
-    "update-electron-app": "2.0.1"
+    "normalize.css": "8.0.1"
   }
 }
