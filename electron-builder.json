@@ -26,7 +26,9 @@
     "icon": "dist/assets/icons",
     "target": [
       "portable"
-    ]
+    ],
+    "certificateFile": "dosvpn.pfx",
+    "certificatePassword": "dodois"
   },
   "mac": {
     "icon": "dist/assets/icons",
