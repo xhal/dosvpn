@@ -21,6 +21,8 @@ dosvpn 是一款方便访问 google、github、Stack Overflow、codepen 等网�
 
 ![](https://user-images.githubusercontent.com/73285310/97070362-46e79c00-160a-11eb-91e6-9633e78fd311.png)
 
+### 如果您觉得好用
+
 :smile: 不妨点个 Star ⭐ 支持一下
 
 ### 免责声明
