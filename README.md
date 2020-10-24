@@ -2,10 +2,10 @@
   <br>
   <a href="https://github.com/dodois/dosvpn"><img src="https://user-images.githubusercontent.com/73285310/97069620-0edd5a80-1604-11eb-965f-79582462d6e5.png" alt="dosvpn logo" width="200"></a>
   <br>
-  Dosvpn <h3 align="center">访问外网学习先进科学技术的必备工具</h3>
-  <br>
-
-<h3 align="center">
+  
+  Dosvpn 
+  <h3 align="center">访问外网学习先进科学技术的必备工具</h3>
+  <h3 align="center">
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/dodois/dosvpn/total)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/dodois/dosvpn)
@@ -13,13 +13,15 @@
 ![GitHub issues](https://img.shields.io/github/issues/dodois/dosvpn)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dodois/dosvpn?style=social)
 
-</h3>
+  </h3>
 
 </h1>
 
 ### 极速、简单、开源
 
 dosvpn 是一款方便访问 google、github、Stack Overflow、codepen 等网站的工具，仅用于编程学习与研究。它支持 windows、macOS、linux，未来可能支持 android、ios。灵活的代理模式（全局、智能、自定义），多协议支持（ss、ssr、vmess、http、dns 等）通过对互联网公开节点的筛选和测速，一键连接，方便快捷。
+
+![](https://user-images.githubusercontent.com/73285310/97070362-46e79c00-160a-11eb-91e6-9633e78fd311.png)
 
 ### 免责声明
 
