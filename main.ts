@@ -92,9 +92,9 @@ try {
   });
 
   app.on("will-quit", () => {
-    const libPath = path.join(process.cwd(), !serve ? "resources" : "lib");
     const exePath = path.join(
-      libPath,
+      process.cwd(),
+      "resources",
       os.arch() == "x64" ? "sysproxy64.exe" : "sysproxy.exe"
     );
     const args: any[] = ["set", 1, "-", "-", "-"];
