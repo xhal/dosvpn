@@ -1,0 +1,63 @@
+{
+  "productName": "Dos VPN",
+  "appId": "com.dosvpn.desktop",
+  "directories": {
+    "output": "release/"
+  },
+  "asar": true,
+  "extraResources": {
+    "from": "./resources/"
+  },
+  "compression": "maximum",
+  "files": [
+    "**/*",
+    "!**/*.ts",
+    "!*.code-workspace",
+    "!LICENSE.md",
+    "!package.json",
+    "!package-lock.json",
+    "!src/",
+    "!e2e/",
+    "!hooks/",
+    "!angular.json",
+    "!_config.yml",
+    "!karma.conf.js",
+    "!tsconfig.json",
+    "!tslint.json"
+  ],
+  "win": {
+    "publisherName": [
+      "Dosvpn"
+    ],
+    "publish": [
+      {
+        "provider": "github"
+      }
+    ],
+    "icon": "dist/assets/icons",
+    "target": [
+      "nsis"
+    ],
+    "verifyUpdateCodeSignature": false,
+    "requestedExecutionLevel": "highestAvailable"
+  },
+  "nsis": {
+    "allowToChangeInstallationDirectory": true,
+    "oneClick": false,
+    "menuCategory": true,
+    "allowElevation": false,
+    "perMachine": true
+  },
+  "mac": {
+    "icon": "dist/assets/icons",
+    "target": [
+      "dmg"
+    ]
+  },
+  "linux": {
+    "icon": "dist/assets/icons",
+    "target": [
+      "AppImage"
+    ]
+  }
+}
