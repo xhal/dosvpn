@@ -36,7 +36,7 @@ function createWindow(): BrowserWindow {
     },
   });
   updaterHandler();
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
   if (serve) {
     win.webContents.openDevTools();
 
