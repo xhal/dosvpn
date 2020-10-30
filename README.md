@@ -17,11 +17,11 @@
 
 ### 极速、简单、开源 🚀
 
-dosvpn 是一款方便访问 google、github、Stack Overflow、codepen 等网站的工具，仅用于编程学习与研究。它支持 windows、macOS、linux，未来可能支持 android、ios。灵活的代理模式（全局、智能、自定义），多协议支持（ss、ssr、vmess、http、dns 等）通过对互联网公开节点的筛选和测速，一键连接，方便快捷。
+dosvpn 是一款方便访问 google、github、Stack Overflow、codepen、jsfiddle 等网站的工具，仅用于编程学习与研究。它支持 windows、macOS、linux，未来可能支持 android、ios。灵活的代理模式（全局、智能、自定义），多协议支持（ss、ssr、vmess、http、dns 等）通过对互联网公开节点的筛选和测速，一键连接，方便快捷。
 
 ![](https://user-images.githubusercontent.com/73285310/97081474-3dbff480-1635-11eb-867c-c89a49c30fdc.gif)
 
-### 如果您觉得好用
+### 各位同学
 
 :smile: 不妨点个 Star ⭐ 支持一下
 
@@ -41,5 +41,5 @@ dosvpn 是一款方便访问 google、github、Stack Overflow、codepen 等网�
 1. ~~修复强制退出软件导致的网络故障问题~~
 2. ~~完善自动更新功能~~
 3. 自动测速优化节点保障网络随时正常
-4. 支持全局与智能分流
+4. ~~支持全局与智能分流~~
 5. 捐赠列表

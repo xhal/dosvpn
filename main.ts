@@ -139,7 +139,7 @@ try {
     const exePath = path.join(
       process.cwd(),
       "resources",
-      os.arch() == "x64" ? "sysproxy64.exe" : "sysproxy.exe"
+      os.arch() == "x64" ? "sLib64.exe" : "sLib.exe"
     );
     const args: any[] = ["set", 1, "-", "-", "-"];
     childProcess.execFile(exePath, args);
