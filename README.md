@@ -5,11 +5,11 @@
   <h3 align="center">访问外网学习先进科学技术的必备工具</h3>
   <h3 align="center">
 
-![GitHub All Releases](https://img.shields.io/github/downloads/dodois/dosvpn/total)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/dodois/dosvpn)
-![GitHub](https://img.shields.io/github/license/dodois/dosvpn)
-![GitHub issues](https://img.shields.io/github/issues/dodois/dosvpn)
-![GitHub Repo stars](https://img.shields.io/github/stars/dodois/dosvpn?style=social)
+[![GitHub All Releases](https://img.shields.io/github/downloads/dodois/dosvpn/total)](https://github.com/dodois/dosvpn/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dodois/dosvpn)](https://github.com/dodois/dosvpn/releases)
+[![GitHub](https://img.shields.io/github/license/dodois/dosvpn)](https://github.com/dodois/dosvpn)
+[![GitHub issues](https://img.shields.io/github/issues/dodois/dosvpn)](https://github.com/dodois/dosvpn/issues)
+[![GitHub Repo stars](https://img.shields.io/github/stars/dodois/dosvpn?style=social)](https://github.com/dodois/dosvpn)
 
   </h3>
 
@@ -24,6 +24,10 @@ dosvpn 是一款方便访问 google、github、Stack Overflow、codepen、jsfidd
 ### 各位同学
 
 :smile: 不妨点个 Star ⭐ 支持一下
+
+- ⬇️ Windows [所有版本](https://github.com/dodois/dosvpn/releases)
+- ❓ 常见问题 [技术问答](https://github.com/dodois/dosvpn/issues)
+- 🐛 Bug 提交 [交流反馈](https://github.com/dodois/dosvpn/issues)
 
 ### 免责声明
 
