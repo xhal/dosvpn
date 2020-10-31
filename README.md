@@ -21,10 +21,9 @@ dosvpn 是一款方便访问 google、github、Stack Overflow、codepen、jsfidd
 
 ![](https://user-images.githubusercontent.com/73285310/97081474-3dbff480-1635-11eb-867c-c89a49c30fdc.gif)
 
-### 各位同学
+### 各位同学 😄 不妨在右侧来个 3 连击 Watch 👀 Star ⭐ Fork 🍴 支持一下
 
-:smile: 不妨点个 Star ⭐ 支持一下
-
+- 🏳️‍🌈 技术交流 [telegram](https://t.me/joinchat/Syp6BRjSjR1cwcCfsEHmlQ)
 - ⬇️ Windows [所有版本](https://github.com/dodois/dosvpn/releases)
 - ❓ 常见问题 [技术问答](https://github.com/dodois/dosvpn/issues)
 - 🐛 Bug 提交 [交流反馈](https://github.com/dodois/dosvpn/issues)
