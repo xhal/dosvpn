@@ -5,6 +5,7 @@
   <h3 align="center">访问外网学习先进科学技术的必备工具</h3>
   <h3 align="center">
 
+[![GitHub Releases](https://img.shields.io/github/downloads/dodois/dosvpn/latest/total)](https://github.com/dodois/dosvpn/releases)
 [![GitHub All Releases](https://img.shields.io/github/downloads/dodois/dosvpn/total)](https://github.com/dodois/dosvpn/releases)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/dodois/dosvpn)](https://github.com/dodois/dosvpn/releases)
 [![GitHub](https://img.shields.io/github/license/dodois/dosvpn)](https://github.com/dodois/dosvpn)
@@ -21,9 +22,9 @@ dosvpn 是一款方便访问 google、github、Stack Overflow、codepen、jsfidd
 
 ![](https://user-images.githubusercontent.com/73285310/97081474-3dbff480-1635-11eb-867c-c89a49c30fdc.gif)
 
-### 各位同学 😄
+### 各位同学 😄 Dodois 需要您的支持！
 
-### 不妨在右侧来个 3 连击 ```Watch``` 👀 ```Star``` ⭐ ```Fork``` 🍴 支持一下吧
+#### 右侧 3 连击 ```Watch``` 👀 ```Star``` ⭐ ```Fork``` 🍴
 
 - 🏳️‍🌈 技术交流 [telegram](https://t.me/joinchat/Syp6BRjSjR1cwcCfsEHmlQ)
 - ⬇️ Windows [所有版本](https://github.com/dodois/dosvpn/releases)
@@ -61,6 +62,16 @@ Dodois 不为任何组织或个人提供服务，该软件仅为 Dodois 进行�
 
 > - [支持](https://github.com/dodois/dosvpn/issues/9)
 > - [反对](https://github.com/dodois/dosvpn/issues/10)
+
+### 常见问题解答 Q&A
+1. 提示“获取节点配置失败”或“节点获取失败”
+> 刷新节点时，提示以上错误，表示你的运营商已阻止你访问如下网址[点此试试](https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config)
+![](https://user-images.githubusercontent.com/73285310/98459725-65d45980-21d8-11eb-88f7-6c70a0755cae.png)
+> - 如果浏览器出现满屏乱码，表示可以正常访问，此时请通过[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)进行处理，
+> - 反之出现上图，你仅需要配置```hosts```文件，点此查看[hosts配置方法](https://github.com/dodois/dosvpn/blob/main/hosts.md)
+
+2. 修改hosts不生效处理办法
+> 点此查看[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)
 
 ### TODO
 

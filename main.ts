@@ -171,6 +171,24 @@ try {
       autoUpdater.quitAndInstall();
     }, 1000);
   });
+
+  // 设置代理
+  ipcMain.on("set_proxy", (event, arg) => {
+    console.log(arg);
+    const { http_proxy } = arg;
+    win.webContents.session
+      .setProxy({
+        proxyRules: http_proxy,
+      })
+      .then(() => {
+        console.log(http_proxy, "设置成功");
+      });
+  });
+
+  // 去掉代理
+  ipcMain.on("remove_proxy", (event, arg) => {
+    win.webContents.session.setProxy({});
+  });
 } catch (e) {
   // Catch Error
   // throw e;
