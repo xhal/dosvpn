@@ -174,15 +174,10 @@ try {
 
   // 设置代理
   ipcMain.on("set_proxy", (event, arg) => {
-    console.log(arg);
-    const { http_proxy } = arg;
-    win.webContents.session
-      .setProxy({
-        proxyRules: http_proxy,
-      })
-      .then(() => {
-        console.log(http_proxy, "设置成功");
-      });
+    const { proxy } = arg;
+    win.webContents.session.setProxy({
+      proxyRules: proxy,
+    });
   });
 
   // 去掉代理

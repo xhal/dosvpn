@@ -64,14 +64,16 @@ Dodois 不为任何组织或个人提供服务，该软件仅为 Dodois 进行�
 > - [反对](https://github.com/dodois/dosvpn/issues/10)
 
 ### 常见问题解答 Q&A
-1. 提示“获取节点配置失败”或“节点获取失败”
-> 刷新节点时，提示以上错误，表示你的运营商已阻止你访问如下网址[点此试试](https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config)
-![](https://user-images.githubusercontent.com/73285310/98459725-65d45980-21d8-11eb-88f7-6c70a0755cae.png)
-> - 如果浏览器出现满屏乱码，表示可以正常访问，此时请通过[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)进行处理，
-> - 反之出现上图，你仅需要配置```hosts```文件，点此查看[hosts配置方法](https://github.com/dodois/dosvpn/blob/main/hosts.md)
 
-2. 修改hosts不生效处理办法
-> 点此查看[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)
+1. 提示“获取节点配置失败”或“节点获取失败”
+
+   > 刷新节点时，提示以上错误，表示你的运营商已阻止你访问如下网址[https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config](https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config)
+   >
+   > - 如果浏览器出现满屏乱码，表示可以正常访问，此时请通过[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)进行处理，
+   > - 如果页面打不开，你仅需要配置```hosts```文件，点此查看[hosts 配置方法](https://github.com/dodois/dosvpn/blob/main/hosts.md)
+
+2. 修改 hosts 不生效处理办法
+   > 点此查看[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)
 
 ### TODO
 
