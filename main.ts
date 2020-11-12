@@ -173,16 +173,8 @@ try {
   });
 
   // 设置代理
-  ipcMain.on("set_proxy", (event, arg) => {
-    const { proxy } = arg;
-    win.webContents.session.setProxy({
-      proxyRules: proxy,
-    });
-  });
-
-  // 去掉代理
-  ipcMain.on("remove_proxy", (event, arg) => {
-    win.webContents.session.setProxy({});
+  ipcMain.on("set_proxy", (event, proxy = {}) => {
+    win.webContents.session.setProxy(proxy);
   });
 } catch (e) {
   // Catch Error
