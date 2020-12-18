@@ -23,6 +23,8 @@
               "node_modules/normalize.css/normalize.css",
               "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "node_modules/flag-icon-css/css/flag-icon.min.css",
+              "node_modules/mapbox-gl/dist/mapbox-gl.css",
+              "node_modules/@mapbox/mapbox-gl-geocoder/lib/mapbox-gl-geocoder.css",
               "src/styles.scss"
             ],
             "scripts": [],
