@@ -16,13 +16,16 @@
 
 </h1>
 
-### 极速、简单、开源 🚀
+### 极速、简单、开源 🚀 [官网](https://dodois.github.io/) [Windows版下载](https://github.com/dodois/dosvpn/releases/download/v1.1.3/Dos-VPN-Setup-1.1.3.exe)
 
 dosvpn 是一款方便访问 google、github、Stack Overflow、codepen、jsfiddle 等网站的工具，仅用于编程学习与研究。它支持 windows、macOS、linux，未来可能支持 android、ios。灵活的代理模式（全局、智能、自定义），多协议支持（ss、ssr、vmess、http、dns 等）通过对互联网公开节点的筛选和测速，一键连接，方便快捷。
 
 ![](https://user-images.githubusercontent.com/73285310/97081474-3dbff480-1635-11eb-867c-c89a49c30fdc.gif)
 
 ### 各位同学 😄 Dodois 需要您的支持！
+
+> - [支持](https://github.com/dodois/dosvpn/issues/9)
+> - [反对](https://github.com/dodois/dosvpn/issues/10)
 
 #### 右侧 3 连击 ```Watch``` 👀 ```Star``` ⭐ ```Fork``` 🍴
 
@@ -42,44 +45,15 @@ Dodois 不为任何组织或个人提供服务，该软件仅为 Dodois 进行�
 - 本项目支持捐赠，您所捐赠的款项一部分用于支持开发者，一部分用于慈善，每一笔捐赠都将获得我们的回礼
 - 如果您愿意对项目进行捐赠，请通过唯一途径 https://github.com/dodois/dosvpn 进行捐赠
 
-### Dodois 是什么？
-
-> 我们是一群热爱和平，热爱技术的年轻猿。猿类像他的祖先“悟空”一样，为了学习更多的专业知识，更先进的科学技术，不停的摆渡去寻找菩提祖师！但 Dodois 是一群懒猿，疲于摆渡！![](https://user-images.githubusercontent.com/73285310/98082800-4aa1db00-1eb4-11eb-8183-d39866fc5880.jpeg)
-
-### Dodois 与 Dosvpn？
-
-> Dosvpn 是 Dodois 摆脱摆渡的工具
-
-### 为什么不摆渡？
-
-> 因为累
-
-### 你的同类支持你吗？
-
-> 我帮你叫个猿来，你问问他吧
-
-### 您好，陌生猿！请问您支持 Dodois 吗？
-
-> - [支持](https://github.com/dodois/dosvpn/issues/9)
-> - [反对](https://github.com/dodois/dosvpn/issues/10)
-
 ### 常见问题解答 Q&A
 
 1. 提示“获取节点配置失败”或“节点获取失败”
 
-   > 刷新节点时，提示以上错误，表示你的运营商已阻止你访问如下网址[https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config](https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config)
-   >
-   > - 如果浏览器出现满屏乱码，表示可以正常访问，此时请通过[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)进行处理，
-   > - 如果页面打不开，你仅需要配置```hosts```文件，点此查看[hosts 配置方法](https://github.com/dodois/dosvpn/blob/main/hosts.md)
+  - 刷新节点时，提示以上错误，表示你的运营商已阻止你访问如下网址[https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config](https://raw.githubusercontent.com/dodois/dosvpn-config/main/outputs/config)
+  
+  - 如果浏览器出现满屏乱码，表示可以正常访问，此时请通过[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)进行处理，
+  - 如果页面打不开，你仅需要配置```hosts```文件，点此查看[hosts 配置方法](https://github.com/dodois/dosvpn/blob/main/hosts.md)
 
 2. 修改 hosts 不生效处理办法
-   > 点此查看[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)
+  - 点此查看[手动配置方法](https://github.com/dodois/dosvpn/blob/main/manual.md)
 
-### TODO
-
-1. ~~修复强制退出软件导致的网络故障问题~~
-2. ~~完善自动更新功能~~
-3. ~~手动切换节点~~
-4. ~~自动测速优化节点保障网络随时正常~~
-5. ~~支持全局与智能分流~~
-6. 捐赠列表
